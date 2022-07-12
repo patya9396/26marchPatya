@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="selenium_project_26march_b(failed)">
+    <classes>
+      <class name="TestNg.Text2">
+        <methods>
+          <include name="zeroth"/>
+          <include name="velocitylogin"/>
+        </methods>
+      </class> <!-- TestNg.Text2 -->
+    </classes>
+  </test> <!-- selenium_project_26march_b(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

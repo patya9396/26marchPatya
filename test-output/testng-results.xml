@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[i am teste today login functionality]]>
+    </line>
+    <line>
+      <![CDATA[i am zeroth]]>
+    </line>
+    <line>
+      <![CDATA[this is zerotha login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-22T16:21:15Z" name="Default Suite" finished-at="2022-06-22T16:24:25Z" duration-ms="189861">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T16:21:15Z" name="selenium_project_26march_b" finished-at="2022-06-22T16:24:25Z" duration-ms="189861">
+      <class name="TestNg.Text2">
+        <test-method is-config="true" signature="velocitylogin()[pri:0, instance:TestNg.Text2@4d50efb8]" started-at="2022-06-22T16:22:32Z" name="velocitylogin" finished-at="2022-06-22T16:24:25Z" duration-ms="113320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- velocitylogin -->
+        <test-method signature="zeroth()[pri:0, instance:TestNg.Text2@4d50efb8]" started-at="2022-06-22T16:24:25Z" name="zeroth" finished-at="2022-06-22T16:24:25Z" duration-ms="8" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable must exist: c:\webdriver\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable must exist: c:\webdriver\chromedriver.exe
+at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+at TestNg.Text2.zeroth(Text2.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zeroth -->
+      </class> <!-- TestNg.Text2 -->
+      <class name="TestNg.Test1">
+        <test-method signature="velocitylogin()[pri:0, instance:TestNg.Test1@467aecef]" started-at="2022-06-22T16:21:16Z" name="velocitylogin" finished-at="2022-06-22T16:22:08Z" duration-ms="52191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[i am teste today login functionality]]>
+            </line>
+            <line>
+              <![CDATA[i am zeroth]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- velocitylogin -->
+        <test-method signature="zeroth()[pri:0, instance:TestNg.Test1@467aecef]" started-at="2022-06-22T16:22:08Z" name="zeroth" finished-at="2022-06-22T16:22:32Z" duration-ms="24214" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[this is zerotha login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zeroth -->
+      </class> <!-- TestNg.Test1 -->
+    </test> <!-- selenium_project_26march_b -->
+  </suite> <!-- Default Suite -->
+</testng-results>
