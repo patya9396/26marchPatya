@@ -23,6 +23,8 @@ public class Action1 {
         //dropdown handle by using action keys
         WebElement dropdown = driver.findElement(By.name("dropdown-class-example"));
         act.click(dropdown).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+        System.out.println("thi is new add");
+        //how are you
 
 
     }
