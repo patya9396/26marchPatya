@@ -17,6 +17,17 @@ public class ImpliciteWait {
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 
 
+
+
+
+
+
+        // this can not getting propey how to use fluentwait plez make suggest
+        System.setProperty("webdriver.chrome.driver", "C:\\webdriver\\chromedriver_win32\\chromedriver.exe");
+
+        driver.get("https://vctcpune.com/selenium/practice.html");
+
+       // this applicable for dynali
     }
 
 
