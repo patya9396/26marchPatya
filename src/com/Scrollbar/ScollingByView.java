@@ -18,7 +18,7 @@ public class ScollingByView {
         WebElement pp = driver.findElement(By.xpath("//h1[text()='Practice Page']"));
         JavascriptExecutor j = ((JavascriptExecutor) driver);
         j.executeScript("arguments[0].scrollIntoView(true)", pp);
-
+        // this an applicable for scrolling stating scrooling will be done bu using this
 
     }
 
